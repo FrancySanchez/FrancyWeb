@@ -1886,6 +1886,14 @@ article.page .read-more {
 	margin-top: 0px;
 }
 
+.about-text{
+	margin-top: 50px;
+}
+
+.c-interests{
+	margin-top: 50px;
+}
+
 .section-portfolio{
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -1903,53 +1911,10 @@ article.page .read-more {
     margin-bottom: 10px;
 }
 
-.portfolio-item:hover .portfolio-item-overlay {
-    opacity: 0.9;
-}
-
-.portfolio-item .portfolio-item-overlay {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    transition: 0.3s all;
-    transition-delay: 0.1s;
-    z-index: 9997;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-.primary-color-bg {
-    background-color: #0fb6bc;
-}
-
-.portfolio-item .portfolio-item-title {
-    font-size: 1.3em;
-    opacity: 1;
-    text-transform: uppercase;
-    bottom: 60%;
-    margin: 0px 10% -20px;
-   	color: white;
-   	text-align: center;
-}
-.portfolio-item .portfolio-item-title {
-    position: absolute;
-    left: 0;
-    width: 80%;
-	transition: 0.4s all;
-    z-index: 9998;
-}
-
-
-
 .section-contact{
 	margin-top: 50px;
 	margin-bottom: 50px;	
 }
-
 
 .slider-content .container {
     background:none;
@@ -2002,17 +1967,22 @@ ul {list-style-type: none;}
 		opacity: 0;
 		transition: opacity 0.3s linear;
 }
+/*---------------------------SKILLS---------------------*/
 
-
-.navbar-header {
-	padding: 20px 0;
+.navbar-header {padding: 20px 0;}
+.img-interests{width: 30%;}
+.sub-tittle{
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
-.img-interests{
-	width: 30%;
+.link-blog{margin-bottom: 20px;}
+
+/*------------------------PORTAFOLIO--------------------------*/
+.port-title{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	/*border-bottom: 2px solid #0fb6bc;*/
 }
-
-
-
 
 

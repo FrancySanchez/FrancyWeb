@@ -93,7 +93,7 @@ if ( ! function_exists( 'read_more_footer' ) ) :
                             ?>
                             <div class="footer-copyright border text-center">
                                 <div class="site-info">
-                                Made with ♥ using WordPress <a href="https://m.do.co/c/d16347dce861" target="blank"> Hoting DigitalOceans</a>
+                                Made with ♥ using WordPress | <a href="https://m.do.co/c/d16347dce861" target="blank"> Hosted by DigitalOceans</a>
                                   <?php 
                                     // printf( esc_html__( '%1$s by %2$s', 'read-more' ), 'Read More', '<a href="http://www.acmethemes.com/" rel="designer">Acme Themes</a>' ); 
 

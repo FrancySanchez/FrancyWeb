@@ -27,7 +27,7 @@ global $read_more_customizer_all_values;
 					<h1>About me</h1> 
 				</div>
 					<div class="row">
-						<div class="col-sm-6">
+						<div class="col-sm-6 about-text">
 							<p>Hello there!! I am Francy and this is my personal website. I am from Venezuela but I am living in Ireland since 2013 and what began as a 6 month adventure ended un being my new life. <br> </p>
 
 							<p>I am an IT Engineer with a strong technical background and over 5 years of experience working in IT projects. <br> </p>
@@ -85,24 +85,26 @@ global $read_more_customizer_all_values;
 						</div>
 					</div>
 					
-					<div> <h2>My interests</h2> </div>
-					<div class="row">
-						<div class="col-sm-3">
-						<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/transport.svg">
-							Travel
+				<div> <h2>My interests</h2> </div>
+					<div class="c-interests">
+						<div class="row">
+							<div class="col-sm-3">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/transport.svg">
+								Travel
+							</div>
+							<div class="col-sm-3">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/people-1.svg">
+								Dancing
+							</div>
+							<div class="col-sm-3">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/video.svg">
+								Edition Video
+							</div>
+							<div class="col-sm-3">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/technology-1.svg">
+								Digital Marketing
+							</div>	
 						</div>
-						<div class="col-sm-3">
-						<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/people-1.svg">
-							Dancing
-						</div>
-						<div class="col-sm-3">
-						<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/video.svg">
-							Edition Video
-						</div>
-						<div class="col-sm-3">
-						<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/technology-1.svg">
-							Digital Marketing
-						</div>	
 					</div>
 			</div>	
 			<!--ABOUT ME OFF-->
@@ -124,23 +126,21 @@ global $read_more_customizer_all_values;
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="portfolio-item">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/fullidiomas.png">
+											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/v2.png">
 											<div class="portfolio-item-overlay primary-color-bg"></div>
-											<!-- <div><h3 class="portfolio-item-title"> Full Idiomas </h3></div> -->
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="portfolio-item">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/atlas.png">
+											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/atlas1.png">
 											<div class="portfolio-item-overlay primary-color-bg"></div>
-											<!-- <h3 class="portfolio-item-title"> Atlas High Schools </h3> -->
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="portfolio-item">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo.png">
+											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/v1.png">
 											<div class="portfolio-item-overlay primary-color-bg"></div>
-											<!-- <h3 class="portfolio-item-title"> Viviendo en otro Pais </h3> -->
+											
 										</div>
 									</div>	
 								</div>
@@ -160,14 +160,14 @@ global $read_more_customizer_all_values;
 				<div class="c-tittle"> <h1>Contact me</h1> </div>
 				<div class="row">
 					<div class="col-sm-6">
-						<h2> Visit my blog in Spanish</h2>
-						<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo_en_otro_pais.png" width="70%">
-						<h2>Follow me on instagram </h2>
+						<h2 class="sub-tittle"> Visit my blog in Spanish</h2>
+						<a  href="http://viviendoenotropais.com/ " target="blank">	<img class="link-blog" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo_en_otro_pais.png" width="50%"></a>
+						<h2 class="sub-tittle">Follow me on instagram </h2>
 						<!-- SnapWidget -->
 						<iframe src="https://snapwidget.com/embed/325517" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:130px"></iframe>
 					</div>
 					<div class="col-sm-6">
-					<h2>Get in Touch </h2>
+					<h2 class="sub-tittle">Get in Touch </h2>
 					<?php echo do_shortcode( '[contact-form-7 id="37" title="Contact form 1"]' );?>
 					</div>
 				</div>
