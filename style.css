@@ -1882,27 +1882,23 @@ article.page .read-more {
     height: 1px;
 }
 
-.about-skills h2{
-	margin-top: 0px;
-}
+.about-skills h2{ margin-top: 0px;}
 
-.about-text{
-	margin-top: 50px;
-}
+.about-text{ margin-top: 50px;}
 
-.c-interests{
-	margin-top: 50px;
-}
+.c-interests{margin-top: 50px;}
+
 
 .section-portfolio{
 	margin-top: 20px;
 	margin-bottom: 50px;
 	background-color: #f6f2f0;	
 }
+
 .section-portfolio .site-content{
 	background-color: #f6f2f0;	
-
 }
+
 .portfolio-text p{
 	text-align: center;
 	margin-bottom: 30px;
@@ -1911,18 +1907,15 @@ article.page .read-more {
     margin-bottom: 10px;
 }
 
+
 .section-contact{
 	margin-top: 50px;
 	margin-bottom: 50px;	
 }
 
-.slider-content .container {
-    background:none;
-}
+.slider-content .container {background:none;}
 
-.footer-bottom-wrapper {
-    background: rgba(153, 153, 153, 0.26);
-}
+.footer-bottom-wrapper {background: rgba(153, 153, 153, 0.26);}
 
 /*---------------------------SKILLS---------------------*/
 ul {list-style-type: none;}
@@ -1975,14 +1968,158 @@ ul {list-style-type: none;}
 	margin-top:20px;
 	margin-bottom: 20px;
 }
+.link-blog{ margin-bottom: 20px;}
 
-.link-blog{margin-bottom: 20px;}
+
 
 /*------------------------PORTAFOLIO--------------------------*/
 .port-title{
-	margin-top: 40px;
-	margin-bottom: 50px;
-	/*border-bottom: 2px solid #0fb6bc;*/
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
+
+.port-subtitle{
+	position: relative;
+    margin: 0 0 30px;
+    padding: 0 0 20px;
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.port-subtitle:before{
+    content: ' ';
+    position: absolute;
+    background: #0fb6bc;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 1px;
+}
+
+.port-img{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.port-text{
+	margin:20px 0 60px 0;
+}
+/*------------------------PORTAFOLIO--------------------------*/
+.view {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.view .mask,
+.view .content {
+  width: 360px;
+  height: 240px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+.view img {
+  display: block;
+  position: relative
+}
+.view h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  padding: 10px;
+  margin: 40px 0 0 0
+}
+
+.view p {
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  padding: 0px 20px 0px;
+  text-align: center
+}
+
+.view a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  /*background: #0fb6bc;*/
+  color: #fff;
+  text-transform: uppercase;
+  /*box-shadow: 0 0 1px #000*/
+}
+
+.view a.info:hover {
+  /*box-shadow: 0 0 5px #000*/
+}
+.view-first img {
+  transition: all 0.2s linear;
+  width: 380px;
+  height: 240px;
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgb(15, 188, 92);
+  transition: all 0.4s ease-in-out;
+}
+
+.view-first h2 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.view-first a.info {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img {
+  transform: scale(1.1);
+}
+
+.view-first:hover .mask {
+  opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.view-first:hover p {
+  transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+  transition-delay: 0.2s;
+}
+
+
+
+
+ul {list-style: disc;}
+ul {margin: 0 0 1.5em -2em;}
+
+
 
 

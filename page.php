@@ -125,22 +125,33 @@ global $read_more_customizer_all_values;
 								</div>
 								<div class="row">
 									<div class="col-sm-4">
-										<div class="portfolio-item">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/v2.png">
-											<div class="portfolio-item-overlay primary-color-bg"></div>
+										<div class="view view-first">
+											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/fullidiomas.png">
+											 <div class="mask">
+											      <h2>Full Idiomas</h2>
+											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
+											      <a href="full-idiomas" class="info">Read More</a>
+    										</div>
 										</div>
 									</div>
 									<div class="col-sm-4">
-										<div class="portfolio-item">
+										<div class="view view-first">
 											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/atlas1.png">
-											<div class="portfolio-item-overlay primary-color-bg"></div>
+											<div class="mask">
+											      <h2>Atlas</h2>
+											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
+											      <a href="portfolio-atlas" class="info">Read More</a>
+    										</div>
 										</div>
 									</div>
 									<div class="col-sm-4">
-										<div class="portfolio-item">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/v1.png">
-											<div class="portfolio-item-overlay primary-color-bg"></div>
-											
+										<div class="view view-first">
+											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo.png">
+											<div class="mask">
+											      <h2>Viviendo en otro pais</h2>
+											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
+											      <a href="#" class="info">Read More</a>
+    										</div>
 										</div>
 									</div>	
 								</div>
@@ -188,7 +199,7 @@ global $read_more_customizer_all_values;
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main"> 
 			 <div class="wrapper inner-main-title">
-				 <div class="entry-header"> 	
+				 <div class="entry-header port-title"> 	
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 				</div>  <!-- .entry-header --> 
 			 </div> 
