@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="123px" viewBox="0 0 112 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 17.6186441 63.8192402 17.6186441 76.9090686 25.4491525 112 25.4491525 112 68.5169492 0 68.5169492"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="50.8983051" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M0,70.0940593 C0,68.1418778 1.58326721,66.559322 3.53691903,66.559322 L108.463081,66.559322 C110.416467,66.559322 112,68.1450363 112,70.0940593 L112,77 L0,77 L0,70.0940593 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="10.440678" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M7.24705882,5.87288136 C7.24705882,4.43132455 8.42424119,3.26271186 9.85127324,3.26271186 L24.4075503,3.26271186 C25.8458182,3.26271186 27.0117647,4.43425783 27.0117647,5.87288136 L27.0117647,8.48305085 L7.24705882,8.48305085 L7.24705882,5.87288136 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.7647059" height="5.22033898" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M0,10.6551776 C0,8.70200405 1.58876207,7.11864407 3.54530179,7.11864407 L33.4295246,7.11864407 C35.3875407,7.11864407 37.7562081,5.7291988 38.9055299,4.16154162 L43.6288389,0.637996959 C45.5314299,0.285640968 48.6642985,4.39326678e-15 50.6198461,3.78115056e-15 L108.45591,-8.62117042e-20 C110.413257,-9.8152356e-18 112,1.59196635 112,3.54084462 L112,27.4067797 L67.0275735,27.4067797 L55.7555147,19.5762712 L0,19.5762712 L0,10.6551776 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="27.4067797" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="86.9647059" y="5.87288136" width="19.7647059" height="10.440678" rx="3.28049987"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19.7647059" height="10.440678" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Camera" transform="translate(0.000000, 21.000000)" stroke="#0FB6BC">
+            <use id="Rectangle-3-Copy-8" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            <use id="Rectangle-3-Copy-7" mask="url(#mask-4)" stroke-width="4" transform="translate(56.000000, 71.779661) scale(1, -1) translate(-56.000000, -71.779661) " xlink:href="#path-3"></use>
+            <use id="Rectangle-4-Copy-2" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+            <use id="Rectangle-3-Copy-6" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+            <ellipse id="Oval-2-Copy-11" stroke-width="2" fill="#FFFFFF" cx="56.3294118" cy="43.3940678" rx="29.3176471" ry="29.0381356"></ellipse>
+            <ellipse id="Oval-2-Copy-10" stroke-width="2" cx="56" cy="43.0677966" rx="20.4235294" ry="20.2288136"></ellipse>
+            <ellipse id="Oval-2-Copy-9" stroke-width="2" fill="#FFFFFF" cx="56.3294118" cy="43.3940678" rx="11.5294118" ry="11.4194915"></ellipse>
+            <use id="Rectangle-5-Copy-2" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+        </g>
+    </g>
+</svg>

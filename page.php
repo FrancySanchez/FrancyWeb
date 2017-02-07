@@ -34,11 +34,10 @@ global $read_more_customizer_all_values;
 
 							<p>I CEO of viviendoenotropais.com (living abroad) this a blog, the idea is create a comunity of the peolple who is living abroad, to share experiencia, tip and motivate to other people at least live in other country for a short time.
 							</p>
-
 						</div>
 						<div class="col-sm-6">
 							<div class="about-skills"><h2> My Skills <h2></div>
-							<div>
+							<div class="skills-list">
 								<ul class= "skills" id="skills">	
 									<li>
 										Web developer
@@ -80,6 +79,14 @@ global $read_more_customizer_all_values;
 											</span>
 										</div>
 									</li>
+									<li>
+										Project Management
+										<div class="bar_container">
+											<span class="bar" data-bar='{ "color": "#c0e844", "delay": 1800 }'>
+												<span class="pct">90%</span>
+											</span>
+										</div>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -87,24 +94,29 @@ global $read_more_customizer_all_values;
 					
 				<div> <h2>My interests</h2> </div>
 					<div class="c-interests">
-						<div class="row">
-							<div class="col-sm-3">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/transport.svg">
-								Travel
+						
+							<div class="c-interests__item">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Plane.svg"
+							>
+								<p class="interest-text">Travel</p>
 							</div>
-							<div class="col-sm-3">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/people-1.svg">
-								Dancing
+							<div class="c-interests__item">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Dancing.svg" >
+								<p class="interest-text">Dancing</p>
 							</div>
-							<div class="col-sm-3">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/video.svg">
-								Edition Video
+							<div class="c-interests__item">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Camera.svg" >
+								<p class="interest-text">Photography</p>
 							</div>
-							<div class="col-sm-3">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/technology-1.svg">
-								Digital Marketing
+							<div class="c-interests__item">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Stats.svg" >
+								<p class="interest-text">Digital Marketing</p>
 							</div>	
-						</div>
+							<div class="c-interests__item">
+							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Video.svg" >
+								<p class="interest-text">Video Editing</p>
+							</div>	
+						
 					</div>
 			</div>	
 			<!--ABOUT ME OFF-->
@@ -121,7 +133,7 @@ global $read_more_customizer_all_values;
 						<main id="main" class="site-main" role="main">
 							<div class="c-tittle"> <h1>Portfolio</h1> </div>
 								<div class="portfolio-text">
-									<p>Check some of the online project where I have worked </p>
+									<p>Check out some of the online project where I worked with </p>
 								</div>
 								<div class="row">
 									<div class="col-sm-4">
@@ -129,7 +141,7 @@ global $read_more_customizer_all_values;
 											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/fullidiomas.png">
 											 <div class="mask">
 											      <h2>Full Idiomas</h2>
-											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
+											      <p>As co-founder of this Startup Website, I had the opportunity to apply my experience in project management and software development.</p>
 											      <a href="full-idiomas" class="info">Read More</a>
     										</div>
 										</div>
@@ -139,7 +151,7 @@ global $read_more_customizer_all_values;
 											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/atlas1.png">
 											<div class="mask">
 											      <h2>Atlas</h2>
-											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
+											      <p>Given my background as a web developer and my familiarity with the company, I was given the task to work on the 2 main properties of Atlas Language school.</p>
 											      <a href="portfolio-atlas" class="info">Read More</a>
     										</div>
 										</div>
@@ -222,3 +234,7 @@ get_sidebar();
 ?>
 
 <?php get_footer();
+
+
+
+
