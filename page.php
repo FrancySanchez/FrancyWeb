@@ -28,11 +28,13 @@ global $read_more_customizer_all_values;
 				</div>
 					<div class="row">
 						<div class="col-sm-6 about-text">
-							<p>Hello there!! I am Francy and this is my personal website. I am from Venezuela but I am living in Ireland since 2013 and what began as a 6 month adventure ended un being my new life. <br> </p>
+							<p>	Hello there! 
+							<br>My name is Francy and this is my personal site,<br>
+							<br>I’m an IT girl, I like the sun and I love the sea, I enjoy traveling and discovering new places very much too.<br>
 
-							<p>I am an IT Engineer with a strong technical background and over 5 years of experience working in IT projects. <br> </p>
+							<br>In 2013, I left my beloved country (Venezuela) for a 6 month adventure that ended un being my new life in Ireland (Great country!). <br>
 
-							<p>I CEO of viviendoenotropais.com (living abroad) this a blog, the idea is create a comunity of the peolple who is living abroad, to share experiencia, tip and motivate to other people at least live in other country for a short time.
+							<br>I’ve been working in IT projects for over 5 years now so I have a strong technical background, and here, on this site, I share my projects and experiences with you. Feel free to navigate around to know more about me and drop me a line if you are interested in my profile. 
 							</p>
 						</div>
 						<div class="col-sm-6">
@@ -133,7 +135,8 @@ global $read_more_customizer_all_values;
 						<main id="main" class="site-main" role="main">
 							<div class="c-tittle"> <h1>Portfolio</h1> </div>
 								<div class="portfolio-text">
-									<p>Check out some of the online project where I worked with </p>
+									<p>Check out some of the online projects I've worked on 
+									</p>
 								</div>
 								<div class="row">
 									<div class="col-sm-4">
@@ -161,8 +164,8 @@ global $read_more_customizer_all_values;
 											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo.png">
 											<div class="mask">
 											      <h2>Viviendo en otro pais</h2>
-											      <p>A cool description of some sort between these tags. I am so cool and awesomely awesome.</p>
-											      <a href="#" class="info">Read More</a>
+											      <p>Working on</p>
+											      <!-- <a href="#" class="info">Read More</a> -->
     										</div>
 										</div>
 									</div>	
