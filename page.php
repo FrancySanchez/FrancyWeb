@@ -98,24 +98,24 @@ global $read_more_customizer_all_values;
 					<div class="c-interests">
 						
 							<div class="c-interests__item">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Plane.svg"
+							<img class="img-interests" src="<?php echo get_template_directory_uri(); ?>/assets/img/Plane.svg"
 							>
 								<p class="interest-text">Travel</p>
 							</div>
 							<div class="c-interests__item">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Dancing.svg" >
+							<img class="img-interests" src="<?php echo get_template_directory_uri(); ?>/assets/img/Dancing.svg" >
 								<p class="interest-text">Dancing</p>
 							</div>
 							<div class="c-interests__item">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Camera.svg" >
+							<img class="img-interests" src="<?php echo get_template_directory_uri(); ?>/assets/img/Camera.svg" >
 								<p class="interest-text">Photography</p>
 							</div>
 							<div class="c-interests__item">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Stats.svg" >
+							<img class="img-interests" src="<?php echo get_template_directory_uri(); ?>/assets/img/Stats.svg" >
 								<p class="interest-text">Digital Marketing</p>
 							</div>	
 							<div class="c-interests__item">
-							<img class="img-interests" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/Video.svg" >
+							<img class="img-interests" src="<?php echo get_template_directory_uri(); ?>/assets/img/Video.svg" >
 								<p class="interest-text">Video Editing</p>
 							</div>	
 						
@@ -141,7 +141,7 @@ global $read_more_customizer_all_values;
 								<div class="row">
 									<div class="col-sm-4">
 										<div class="view view-first">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/fullidiomas.png">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/img/fullidiomas.png">
 											 <div class="mask">
 											      <h2>Full Idiomas</h2>
 											      <p>As co-founder of this Startup Website, I had the opportunity to apply my experience in project management and software development.</p>
@@ -151,17 +151,17 @@ global $read_more_customizer_all_values;
 									</div>
 									<div class="col-sm-4">
 										<div class="view view-first">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/atlas1.png">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/img/atlas1.png">
 											<div class="mask">
 											      <h2>Atlas</h2>
 											      <p>Given my background as a web developer and my familiarity with the company, I was given the task to work on the 2 main properties of Atlas Language school.</p>
-											      <a href="portfolio-atlas" class="info">Read More</a>
+											      <a href="atlas-project" class="info">Read More</a>
     										</div>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="view view-first">
-											<img src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo.png">
+											<img src="<?php echo get_template_directory_uri(); ?>/assets/img/viviendo.png">
 											<div class="mask">
 											      <h2>Viviendo en otro pais</h2>
 											      <p>Working on</p>
@@ -187,7 +187,7 @@ global $read_more_customizer_all_values;
 				<div class="row">
 					<div class="col-sm-6">
 						<h2 class="sub-tittle"> Visit my blog in Spanish</h2>
-						<a  href="http://viviendoenotropais.com/ " target="blank">	<img class="link-blog" src="http://localhost:8888/francysanchezweb/wp-content/themes/read-more/assets/img/viviendo_en_otro_pais.png" width="50%"></a>
+						<a  href="http://viviendoenotropais.com/ " target="blank">	<img class="link-blog" src="<?php echo get_template_directory_uri(); ?>/assets/img/viviendo_en_otro_pais.png" width="50%"></a>
 						<h2 class="sub-tittle">Follow me on instagram </h2>
 						<!-- SnapWidget -->
 						<iframe src="https://snapwidget.com/embed/325517" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:520px; height:130px"></iframe>
